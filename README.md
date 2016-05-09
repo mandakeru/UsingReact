@@ -1,4 +1,4 @@
-# Teste Retail Manager
+# Teste UnixERP
 Uma aplicação simples para testar as habilidades com Ruby on Rails.
 
 ##### Configuração
@@ -30,7 +30,7 @@ Precisamos de uma tela onde seja possível cadastrar um produto com nome e descr
 Cor e tamanho não precisa ter CRUD, apenas crie os modelos e popule com alguns dados de teste para serem relacionados ao produto (Pode ser um arquivo de seed).
 
 ##### Exemplo de banco de dados
-![Alt text](https://raw.githubusercontent.com/fellipefingoli/teste-retail-manager/master/public/Teste_Retail_Manager.png)
+![Alt text](https://raw.githubusercontent.com/fellipefingoli/teste-unixerp/master/public/Teste_Retail_Manager.png)
 
 ##### Requisitos
 - Escrever testes utilizando RSpec ou MiniTest. (Nosso projeto atual usa RSpec)
