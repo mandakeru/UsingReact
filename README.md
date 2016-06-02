@@ -25,7 +25,7 @@ Por exemplo, ele pode ter no estoque:
 Etc...
 
 ##### O que você irá fazer:
-Precisamos de uma tela onde seja possível cadastrar um produto com nome e descrição, e relacionar novas cores, tamanhos e quantidade utilizando Nested Forms. Após o cadastro, temos que ter uma tela onde listar os produtos disponíveis em cada combinação de tamanho e cor.
+Precisamos de uma tela onde seja possível cadastrar um produto com nome e descrição, e relacionar novas cores, tamanhos e quantidade **em um único formulário utilizando Nested Forms**. Após o cadastro, temos que ter uma tela onde listar os produtos disponíveis em cada combinação de tamanho e cor.
 
 Cor e tamanho não precisa ter CRUD, apenas crie os modelos e popule com alguns dados de teste para serem relacionados ao produto (Pode ser um arquivo de seed).
 
@@ -33,8 +33,8 @@ Cor e tamanho não precisa ter CRUD, apenas crie os modelos e popule com alguns 
 ![Alt text](https://raw.githubusercontent.com/fellipefingoli/teste-unixerp/master/public/Teste_Retail_Manager.png)
 
 ##### Requisitos
-- Escrever testes utilizando RSpec ou MiniTest. (Nosso projeto atual usa RSpec)
-  e Capybara
+- Escrever testes utilizando RSpec ou MiniTest. (Nosso projeto atual usa RSpec
+  e Capybara)
 - Não utilizar o scaffold. Mostre sua habilidade em criar views, controllers, models, sem usar scaffold.
 - Organização e legibilidade do código
 - Se utilizar gems, listar quais gems foram utilizadas, e para qual finalidade
@@ -42,4 +42,4 @@ Cor e tamanho não precisa ter CRUD, apenas crie os modelos e popule com alguns 
 ##### Bônus
 - Usar bootstrap para formatar as páginas de cadastro
 - Utilizar SimpleForm
-- Publicar no heroku e nos enviar o link
+- Publicar no heroku e nos enviar o link.
