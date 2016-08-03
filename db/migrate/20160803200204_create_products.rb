@@ -3,12 +3,12 @@ class CreateProducts < ActiveRecord::Migration
     create_table :products do |t|
       t.string :name
       t.text :description
-      t.integer :quantity
-     
+      t.references :color, index: true
+      t.references :size, index: true
 
       t.timestamps null: false
     end
-    
-    add_index :products, :name
+    add_foreign_key :products, :colors
+    add_foreign_key :products, :sizes
   end
 end

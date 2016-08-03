@@ -11,11 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160803193455) do
+ActiveRecord::Schema.define(version: 20160803200204) do
 
   create_table "colors", force: :cascade do |t|
     t.string   "name"
-    t.integer  "product_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -25,16 +24,17 @@ ActiveRecord::Schema.define(version: 20160803193455) do
   create_table "products", force: :cascade do |t|
     t.string   "name"
     t.text     "description"
-    t.integer  "quantity"
+    t.integer  "color_id"
+    t.integer  "size_id"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
 
-  add_index "products", ["name"], name: "index_products_on_name"
+  add_index "products", ["color_id"], name: "index_products_on_color_id"
+  add_index "products", ["size_id"], name: "index_products_on_size_id"
 
   create_table "sizes", force: :cascade do |t|
     t.string   "name"
-    t.integer  "product_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

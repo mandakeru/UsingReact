@@ -3,9 +3,11 @@
 one:
   name: MyString
   description: MyText
-  quantity: 1
+  color_id: 
+  size_id: 
 
 two:
   name: MyString
   description: MyText
-  quantity: 1
+  color_id: 
+  size_id: 
