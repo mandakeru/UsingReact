@@ -30,6 +30,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'annotate'
 gem 'enumerize'
 gem 'rails_admin'
+gem 'simple_form'
+gem 'pry'
 
 
 # Use Unicorn as the app server
