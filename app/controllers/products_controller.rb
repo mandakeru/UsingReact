@@ -15,7 +15,6 @@ class ProductsController < ApplicationController
   end  
   def create
    @products = Product.new(product_params)   
-   binding.pry
    @products.save
    
    redirect_to "/products/#{@products.id}"

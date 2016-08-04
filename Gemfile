@@ -33,6 +33,9 @@ gem 'rails_admin'
 gem 'simple_form'
 gem 'pry'
 
+# botstrap
+gem "twitter-bootstrap-rails"
+
 
 # Use Unicorn as the app server
 # gem 'unicorn'
