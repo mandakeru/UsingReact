@@ -34,6 +34,7 @@ gem 'simple_form'
 gem 'pry'
 gem 'ransack'
 gem 'faker'
+gem 'rails_12factor', group: :production
 
 # botstrap
 gem "twitter-bootstrap-rails"
