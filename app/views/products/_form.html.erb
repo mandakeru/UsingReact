@@ -1,6 +1,6 @@
 <%= simple_form_for @products, :html => { :class => 'form-horizontal' } do |f| %>
-  <p>Nome:</p>
-  <%= f.input :name, label: false %>
+  <p>Tipo de produto:</p>
+  <%= f.input :product_modelo, label: false %>
   <%#= error_span(@products[:name]) %>
   <p>Descrição:</p>
   <%= f.input :description, label: false %>
@@ -11,6 +11,8 @@
   <p>Tamanho:</p>
   <%= f.collection_select(:size_id, Size.all, :id, :name, prompt: true) %>
   <%#= error_span(@products[:size_id]) %>
+  <p>Quantidade:</p>
+  <%= f.input :quantity, label: false %>
    <br>
   <%= f.button :submit, :class => 'btn-primary' %>
   <%= link_to t('.cancel', :default => t("helpers.links.cancel")),

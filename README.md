@@ -1,10 +1,14 @@
+
+# Teste finalizado por Jean F Silva
+# Descrição do que foi usado:
+
 # Teste UnixERP
 Uma aplicação simples para testar as habilidades com Ruby on Rails.
 
 ##### Configuração
 O teste deve ser feito utilizando:
-- Rails 4.2.0 +
-- Ruby 2.2.0 +
+- Rails 4.2.0
+- Ruby 2.3.0
 
 ##### Procedimento
 Fazer um fork do projeto, e ao finalizar fazer um pull request para o repositório original.

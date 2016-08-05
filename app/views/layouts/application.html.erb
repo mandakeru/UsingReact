@@ -15,12 +15,11 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">TesteRetailManager</a>
+        <a class="navbar-brand" href="/products">TesteRetailManager</a>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav">
-            <li><%= link_to "Link1", "/path1"  %></li>
-            <li><%= link_to "Link2", "/path2"  %></li>
-            <li><%= link_to "Link3", "/path3"  %></li>
+            <li><%= link_to "Estoque", product_estoque_path  %></li>
+            
           </ul>
         </div>
       </div>
@@ -34,12 +33,12 @@
         </div>
         <div class="col-lg-3">
           <div class="well sidebar-nav">
-            <h3>Sidebar</h3>
+            <h3>Estoque</h3>
             <ul class="nav nav-list">
-              <li class="nav-header">Sidebar</li>
-              <li><%= link_to "Link1", "/path1"  %></li>
-              <li><%= link_to "Link2", "/path2"  %></li>
-              <li><%= link_to "Link3", "/path3"  %></li>
+              <li class="nav-header"></li>
+              <li>Controle de estoque</li>
+              <li>Total em estoque: <%= Product.all.count %></li>
+           
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
@@ -49,7 +48,7 @@
       
 
       <footer>
-        <p>&copy; Company 2016</p>
+        
       </footer>
 
     </div> <!-- /container -->

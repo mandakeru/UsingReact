@@ -205,3 +205,25 @@ pt-BR:
       long: "%d de %B de %Y, %H:%M"
       short: "%d de %B, %H:%M"
     pm: ''
+  activerecord:
+   attributes:
+      product:
+        description: Descrição
+        color_id: Cor
+        size_id: Tamanho
+        product_modelo: Tipo
+        quantity: Quantidade
+  helpers:
+    actions: "Ações"
+    links:
+      back: "Voltar"
+      cancel: "Cancelar"
+      confirm: "Você tem certesa?"
+      destroy: "Apagar"
+      new: "Novo"
+      edit: "Editar"
+    titles:
+      edit: "Editar %{model}"
+      save: "Salvar %{model}"
+      new: "Novo %{model}"
+      delete: "Apagar %{model}"

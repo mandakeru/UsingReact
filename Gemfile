@@ -32,6 +32,8 @@ gem 'enumerize'
 gem 'rails_admin'
 gem 'simple_form'
 gem 'pry'
+gem 'ransack'
+gem 'faker'
 
 # botstrap
 gem "twitter-bootstrap-rails"
@@ -48,7 +50,7 @@ group :development, :test do
   gem 'byebug'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.0', group: :development 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
@@ -61,3 +63,8 @@ group :test do
 end
 
 # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+
+group :production do
+  gem 'pg'
+  gem 'puma'
+end
